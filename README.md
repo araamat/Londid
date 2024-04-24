@@ -26,6 +26,13 @@ The main goal of this project is to create a **rental system for Kuressaare Regi
 
 ![image](https://github.com/araamat/Londid/assets/144334374/80570626-6cc1-40b0-bd24-58a1e9ac1653)
 
+- Andrus Raamat
+- Anne Ruusmann
+- Märt Pors
+- Taaniel Tiidussalu
+- Volodymyr Zhuliev
+- Silvio Tsurkan
+- Juhan Heinlaid
 ---
 
 -----------
