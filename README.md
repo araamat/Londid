@@ -1,4 +1,5 @@
-# TEAM **LONDID**
+![image](https://github.com/araamat/Londid/assets/144334374/c624427f-fb62-4f4f-9eae-fc8d413c923c)
+
 # RENTAL SYSTEM
 
 ## The purpose of this project
