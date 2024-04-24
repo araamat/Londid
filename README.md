@@ -19,7 +19,7 @@ The main goal of this project is to create a **rental system for Kuressaare Regi
 - Slack
 
 ## 📓 Links from the project
-- [Figma]([https://www.figma.com/files/team/1364940870584765430](https://www.figma.com/file/gwZpTfRnMUKTIN0fgzv1KT/Main-Page?type=design&node-id=0-1&mode=design&t=OqTiGr0K6PCuBodS-0)
+- [Figma](https://www.figma.com/file/gwZpTfRnMUKTIN0fgzv1KT/Main-Page?type=design&node-id=0-1&mode=design&t=OqTiGr0K6PCuBodS-0)
 
 ## ⚡Our team members:
 
