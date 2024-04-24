@@ -1,8 +1,8 @@
-# LONDID
-# LAENUTUSSÜSTEEM
+# TEAM **LONDID**
+# RENTAL SYSTEM
 
 ## Selle projekti eesmärk
-Selle projekti peamine eesmärk on luua **Kuressaare Ametikooli disanimajaka fotoaparaatidele ja nende vahenditele laenutussüsteem.**
+The main goal of this project is to create a **rental system for Kuressaare Regional Training Centre design lighthouse cameras and their equipment.**
 
 ## Töövahendite loetelu:
 Ruumis olev tahvel, GitHub, Slack, Firebase, React, VsCode.
