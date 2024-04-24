@@ -1,10 +1,10 @@
 # TEAM **LONDID**
 # RENTAL SYSTEM
 
-## Selle projekti eesmärk
+## The purpose of this project
 The main goal of this project is to create a **rental system for Kuressaare Regional Training Centre design lighthouse cameras and their equipment.**
 
-## The purpose of this project:
+## Tools used in the project
 Blackboard, GitHub, Slack, Firebase, React, VsCode.
 
 ## Communication channel
