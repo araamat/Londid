@@ -5,7 +5,12 @@
 The main goal of this project is to create a **rental system for Kuressaare Regional Training Centre design lighthouse cameras and their equipment.**
 
 ## Tools used in the project
-Blackboard, GitHub, Slack, Firebase, React, VsCode.
+- Blackboard
+- GitHub
+- Slack
+- Firebase
+- React
+- VsCode
 
 ## Communication channel
 - Communication in the classroom
