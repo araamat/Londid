@@ -4,17 +4,19 @@
 ## Selle projekti eesmärk
 The main goal of this project is to create a **rental system for Kuressaare Regional Training Centre design lighthouse cameras and their equipment.**
 
-## Töövahendite loetelu:
-Ruumis olev tahvel, GitHub, Slack, Firebase, React, VsCode.
+## The purpose of this project:
+Blackboard, GitHub, Slack, Firebase, React, VsCode.
 
-## Valitud suhtluskanal
-- Vahetu suhtlus klassiruumis
+## Communication channel
+- Communication in the classroom
 - Slack
 
-## 📓 Lingid projektist
+## 📓 Links from the project
 - 
 
-## ⚡Meie tiimiliikmed:
+## ⚡Our team members:
+
+**NAME       STUDY GROUPS       GITHUB
 ![image](https://github.com/araamat/Londid/assets/144334374/80570626-6cc1-40b0-bd24-58a1e9ac1653)
 
 ---
