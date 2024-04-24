@@ -1,4 +1,4 @@
-![image](https://github.com/araamat/Londid/assets/144334374/c624427f-fb62-4f4f-9eae-fc8d413c923c)
+![image](https://github.com/araamat/Londid/assets/144334374/74bd688e-c5ce-422c-a404-37c41d10cd0e)
 
 # RENTAL SYSTEM
 
