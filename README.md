@@ -33,8 +33,6 @@ The main goal of this project is to create a **rental system for Kuressaare Regi
 - Volodymyr Zhuliev
 - Silvio Tsurkan
 - Juhan Heinlaid
----
-
 -----------
 **TIIMI TAGASISIDE**
 
