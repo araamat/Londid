@@ -2,7 +2,7 @@
 # LAENUTUSSÜSTEEM
 
 ## Selle projekti eesmärk
-Selle projekti peamine eesmärk on luua Kuressaare Ametikooli disanimajaka fotoaparaatidele ja nende vahenditele laenutussüsteem.
+Selle projekti peamine eesmärk on luua **Kuressaare Ametikooli disanimajaka** fotoaparaatidele ja nende vahenditele laenutussüsteem.
 
 ## Töövahendite loetelu:
 Ruumis olev tahvel, GitHub, Slack, Firebase, React, VsCode.
