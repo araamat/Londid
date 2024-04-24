@@ -9,7 +9,7 @@ Ruumis olev tahvel, GitHub, Slack, Firebase, React, VsCode.
 
 ## Valitud suhtluskanal
 - Vahetu suhtlus klassiruumis
-- [Slack](https://slack.com/)
+- Slack
 
 ## 📓 Lingid projektist
 - 
