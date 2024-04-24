@@ -16,7 +16,8 @@ Blackboard, GitHub, Slack, Firebase, React, VsCode.
 
 ## ⚡Our team members:
 
-**NAME       STUDY GROUPS       GITHUB
+**NAME       STUDY GROUPS       GITHUB**
+
 ![image](https://github.com/araamat/Londid/assets/144334374/80570626-6cc1-40b0-bd24-58a1e9ac1653)
 
 ---
