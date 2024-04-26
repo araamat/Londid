@@ -56,14 +56,7 @@ The main goal of this project is to create a **rental system for Kuressaare Regi
 2. Sallivus ja kannatus
 3. Õppisin, et TypeScript on võimas
 
-★
-
-**NIMI**
-
-1. 
-
-2.
-
-3. 
-
-☆
+**Volodymyr Zhuliev**
+1. Harjutasin oma eesti keelt ja õppisin palju uusi sõnu
+2. Meeskonnatöö
+3. React Portals
