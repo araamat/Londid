@@ -60,3 +60,18 @@ The main goal of this project is to create a **rental system for Kuressaare Regi
 1. Harjutasin oma eesti keelt ja õppisin palju uusi sõnu
 2. Meeskonnatöö
 3. React Portals
+
+**Märt Pors**
+1. Tulevastes arendusprojektides kasutan rohkem avainfot internetist
+2. Kannatus ja sallivus
+3. Figma funktsioone ja tegin tutvust Firebase keskkonnaga
+
+**Anne Ruusmann**
+1. AI abi kasutamine võõrast koodist arusaamiseks.
+2. Meeskonnatöö
+3. Nägin esimest korda React projekti. Proovisin selle ülesehitusest natuke aru saada.
+
+**Taaniel Tiidussalu**
+1. Figma kasutusvõimekus arenes niiet sedavõrd on järgmine kord kergem
+2. Teistega asjade läbirääkimine ja ühistele lahendustele tulemine
+3. Põhiliselt figma kasutamist ja selle funktsioonidest arusaamist
