@@ -13,6 +13,7 @@ The main goal of this project is to create a **rental system for Kuressaare Regi
 - React
 - VsCode
 - Figma
+- TypeScript
 
 ## Communication channel
 - Communication in the classroom
