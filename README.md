@@ -37,3 +37,27 @@ The main goal of this project is to create a **rental system for Kuressaare Regi
 - Silvio Tsurkan
 - Juhan Heinlaid
 -----------
+**TIIMI TAGASISIDE**
+
+**Küsimused:**
+1. Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides?
+2. Üks pehme oskus, mida õppisin ja endas arendasin.
+3. Üks tehniline oskus, mida õppisin ja endas arendasin.
+
+**Andrus Raamat**
+
+1. Proovida ise koodipoolt aidata.
+2. Lasin noorematel tegutseda, kuna nende tehnilised teadmised tundusid suured.
+3. Nokkisin veidi koodipoolt ise ja sain mingi väga algelise asja alustatud.
+
+★
+
+**NIMI**
+
+1. 
+
+2.
+
+3. 
+
+☆
