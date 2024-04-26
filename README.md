@@ -50,6 +50,12 @@ The main goal of this project is to create a **rental system for Kuressaare Regi
 2. Lasin noorematel tegutseda, kuna nende tehnilised teadmised tundusid suured.
 3. Nokkisin veidi koodipoolt ise ja sain mingi väga algelise asja alustatud.
 
+**Juhan Heinlaid**
+
+1. Osalen veelgi rohkem tiimitöös
+2. Sallivus ja kannatus
+3. Õppisin, et TypeScript on võimas
+
 ★
 
 **NIMI**
