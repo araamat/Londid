@@ -1,7 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { browserSessionPersistence, getAuth, setPersistence } from "firebase/auth";
-import { getDatabase } from "firebase/database";
-import { getFirestore } from "firebase/firestore";
+import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBZhFCTH6MMmIF14_gikTm-B1sZfjqDqJg",
@@ -13,6 +11,9 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
+export function isMobile(): boolean {
+  return window.matchMedia("(max-device-width: 480px)").matches
+}
 
 export const auth = getAuth(app);
 

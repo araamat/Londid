@@ -5,11 +5,12 @@ import db from "../db";
 
 export const useUser = () => {
   const user = auth.currentUser!;
-  const userQuery = query(db.users, where("uid", "==", user.uid));
+  const userQuery = query(db.users, where("uid", "==", user?.uid ?? "1"));
 
   return useQuery({
-    queryKey: ["user", user.uid],
+    queryKey: ["user", user?.uid ?? "1"],
     queryFn: () =>
       getDocs(userQuery).then((snapshot) => snapshot.docs[0].data()!),
+    enabled: !!auth.currentUser,
   });
 };

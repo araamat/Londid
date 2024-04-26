@@ -1,6 +1,5 @@
 import {
   createFileRoute,
-  createLazyFileRoute,
   useNavigate,
 } from "@tanstack/react-router";
 import {
@@ -19,6 +18,7 @@ export const Route = createFileRoute("/login")({
 interface LogInInputs {
   email: string;
   password: string;
+  rememberMe: boolean;
 }
 
 function LogIn() {
@@ -29,7 +29,7 @@ function LogIn() {
   const { register, handleSubmit } = useForm<LogInInputs>();
 
   const onSubmit: SubmitHandler<LogInInputs> = async (data) => {
-    setPersistence(auth, browserLocalPersistence).then(() => {
+    setPersistence(auth, data.rememberMe ? browserLocalPersistence : browserSessionPersistence).then(() => {
       return signInWithEmailAndPassword(auth, data.email, data.password).then(
         () => {
           navigate({
@@ -43,22 +43,28 @@ function LogIn() {
   return (
     <div className="flex items-center justify-center w-screen h-screen">
       <form
-        className="flex flex-col items-center p-4 gap-4 border border-black w-64"
+        className="flex flex-col items-center gap-4 p-4 border-2 border-[#9c9c9c] w-64 rounded-lg"
         onSubmit={handleSubmit(onSubmit)}
       >
         <h1 className="text-3xl font-bold">Log In</h1>
         <input
-          className="border-2 border-black p-3"
+          className="border-2 border-[#A6A6A6] p-3 rounded-lg"
           placeholder="Email"
           {...register("email")}
         />
         <input
-          className="border-2 border-black p-3"
+          className="border-2 border-[#A6A6A6] p-3 rounded-lg"
           type="password"
           placeholder="Password"
           {...register("password")}
         />
-        <input className="border-2 border-black py-3 px-6" type="submit" />
+
+        <label className="flex gap-2 self-start">
+          <input type="checkbox" {...register("rememberMe")} />
+          Keep me signed in
+        </label>
+
+        <input className="w-full cursor-pointer py-3 rounded-full bg-[#6B4EFF] text-xl font-bold text-white" type="submit" value="Log In" />
       </form>
     </div>
   );

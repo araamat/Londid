@@ -26,6 +26,15 @@ export interface Inventory {
   room: string;
   building: string;
   note: string | null;
+  comment: string | null;
+}
+
+export interface ItemLog {
+  email: string;
+  rentalStart: Timestamp;
+  rentalEnd: Timestamp;
+  note: string;
+  inventoryNumber: string;
 }
 
 export const firestore = getFirestore(app);
@@ -40,4 +49,5 @@ export default {
   inventory: collection(firestore, "inventory").withConverter(
     converter<Inventory>()
   ),
+  itemLog: collection(firestore, "itemLog").withConverter(converter<ItemLog>()),
 };

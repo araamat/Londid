@@ -1,12 +1,16 @@
 import { useQuery } from "@tanstack/react-query";
 import db from "../db"
-import { getDocs, limit, orderBy, query } from "firebase/firestore"
+import { getDocs, orderBy, query } from "firebase/firestore"
 
 export const useInventory = () => {
-    const inventoryQuery = query(db.inventory, orderBy("name"), limit(25));
+    const inventoryQuery = query(db.inventory, orderBy("name"));
 
     return useQuery({
         queryKey: ['inventory'],
-        queryFn: () => getDocs(inventoryQuery)
+        queryFn: async () => {
+            const docs = await getDocs(inventoryQuery)
+
+            return docs
+        }
     })
 }

@@ -11,19 +11,25 @@
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
-import { Route as NewInventoryImport } from './routes/newInventory'
+import { Route as ReturnImport } from './routes/return'
 import { Route as LoginImport } from './routes/login'
+import { Route as ItemImport } from './routes/item'
 import { Route as IndexImport } from './routes/index'
 
 // Create/Update Routes
 
-const NewInventoryRoute = NewInventoryImport.update({
-  path: '/newInventory',
+const ReturnRoute = ReturnImport.update({
+  path: '/return',
   getParentRoute: () => rootRoute,
 } as any)
 
 const LoginRoute = LoginImport.update({
   path: '/login',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const ItemRoute = ItemImport.update({
+  path: '/item',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -40,12 +46,16 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
+    '/item': {
+      preLoaderRoute: typeof ItemImport
+      parentRoute: typeof rootRoute
+    }
     '/login': {
       preLoaderRoute: typeof LoginImport
       parentRoute: typeof rootRoute
     }
-    '/newInventory': {
-      preLoaderRoute: typeof NewInventoryImport
+    '/return': {
+      preLoaderRoute: typeof ReturnImport
       parentRoute: typeof rootRoute
     }
   }
@@ -55,8 +65,9 @@ declare module '@tanstack/react-router' {
 
 export const routeTree = rootRoute.addChildren([
   IndexRoute,
+  ItemRoute,
   LoginRoute,
-  NewInventoryRoute,
+  ReturnRoute,
 ])
 
 /* prettier-ignore-end */

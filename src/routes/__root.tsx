@@ -1,7 +1,7 @@
 import { Outlet, createRootRoute, useNavigate } from "@tanstack/react-router";
 import Header from "../components/Header";
 import { useEffect } from "react";
-import { auth } from "../firebase";
+import { auth, isMobile } from "../firebase";
 
 export const Route = createRootRoute({
   component: Root,
@@ -17,9 +17,10 @@ function Root() {
       });
     });
   }, []);
+  
   return (
     <>
-      <Header />
+      {isMobile() ? null : <Header />}
       <Outlet />
     </>
   );
